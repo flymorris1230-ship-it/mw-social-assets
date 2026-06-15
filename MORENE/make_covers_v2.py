@@ -459,7 +459,7 @@ def make_all():
             ("MORENE", FONT_EN_BOLD, 38, WHITE, 0.055, 0.048, "tl"),
             ("四大", FONT_ZH, 94, WHITE, 0.055, 0.090, "tl"),
             ("香氣家族", FONT_ZH, 70, WHITE, 0.055, 0.198, "tl"),
-            ("FLORAL · RESINOUS · CITRUS · GREEN", FONT_EN, 22, WHITE, 0.055, 0.290, "tl"),
+            ("FLORAL · WOODY · HERBAL · CITRUS", FONT_EN, 22, WHITE, 0.055, 0.290, "tl"),
             ("SCENT PERSONALITY · 香氣人格 · W28", FONT_EN, 19, WHITE, 0.055, 0.946, "tl"),
         ],
     )
