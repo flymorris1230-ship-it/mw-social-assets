@@ -48,6 +48,19 @@ LEMON   = "#E2C93A"    # 檸檬黃
 WHITE   = "#FFFFFF"
 
 # =====================
+# MORENE 官方 logo(去背 RGBA;依底色 recolor 成黑/奶白/白)
+# =====================
+LOGO_PATH = "/Users/morrislin/Desktop/MORENE/MORENE_pages/fonts/MORENE_logo_official.png"
+_LOGO = Image.open(LOGO_PATH).convert("RGBA")
+def get_logo(color_hex, w_px):
+    r, g, b = hex2rgb(color_hex)
+    alpha = _LOGO.split()[3]
+    solid = Image.new("RGBA", _LOGO.size, (r, g, b, 0))
+    solid.putalpha(alpha)
+    h_px = max(1, int(_LOGO.height * w_px / _LOGO.width))
+    return solid.resize((w_px, h_px), Image.LANCZOS)
+
+# =====================
 # 瓶身路徑
 # =====================
 def get_bottle(name):
@@ -216,10 +229,14 @@ def compose_card(
         'bl': 'ld', 'bc': 'md', 'br': 'rd',
     }
     for (text, fpath, fsize, color_hex, xf, yf, anc) in text_lines:
-        f = fnt(fpath, fsize)
-        color = hex2rgb(color_hex)
         px = int(canvas_w * xf)
         py = int(canvas_h * yf)
+        if text == "MORENE":
+            lg = get_logo(color_hex, int(canvas_w * 0.25))
+            canvas.paste(lg, (px, py), lg)
+            continue
+        f = fnt(fpath, fsize)
+        color = hex2rgb(color_hex)
         a = anchor_map.get(anc, 'la')
         draw.text((px, py), text, font=f, fill=color, anchor=a)
 
@@ -289,10 +306,14 @@ def compose_multi_bottle(
         'bl': 'ld', 'bc': 'md', 'br': 'rd',
     }
     for (text, fpath, fsize, color_hex, xf, yf, anc) in text_lines:
-        f = fnt(fpath, fsize)
-        color = hex2rgb(color_hex)
         px = int(canvas_w * xf)
         py = int(canvas_h * yf)
+        if text == "MORENE":
+            lg = get_logo(color_hex, int(canvas_w * 0.25))
+            canvas.paste(lg, (px, py), lg)
+            continue
+        f = fnt(fpath, fsize)
+        color = hex2rgb(color_hex)
         a = anchor_map.get(anc, 'la')
         draw.text((px, py), text, font=f, fill=color, anchor=a)
 
