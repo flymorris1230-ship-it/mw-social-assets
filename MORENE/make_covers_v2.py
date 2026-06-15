@@ -17,9 +17,11 @@ OUT_BASE = "/Users/morrislin/mw-social-assets/MORENE"
 # =====================
 # 字體
 # =====================
-FONT_EN_BOLD = "/System/Library/Fonts/Futura.ttc"
-FONT_EN      = "/System/Library/Fonts/HelveticaNeue.ttc"
-FONT_ZH      = "/System/Library/Fonts/STHeiti Medium.ttc"
+_FD = os.path.dirname(os.path.abspath(__file__)) + "/_fonts"
+FONT_EN_BOLD = _FD + "/BwGradualDEMO-Black.otf"      # 規範英文 display
+FONT_EN      = _FD + "/Outfit-Medium.ttf"            # 規範英文 body/小字
+FONT_ZH      = _FD + "/NotoSansTC-Medium.otf"        # 規範中文
+FONT_ZH_BOLD = _FD + "/NotoSansTC-Black.otf"
 
 def fnt(path, size, index=0):
     try:
