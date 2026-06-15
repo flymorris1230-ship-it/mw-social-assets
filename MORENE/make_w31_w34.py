@@ -127,7 +127,7 @@ def make_w31():
             ("MORENE", FONT_EN_BOLD, 38, BLACK, 0.055, 0.048, "tl"),
             ("妳的命定香氣", FONT_ZH, 54, BLACK, 0.055, 0.095, "tl"),
             ("一天怎麼用?", FONT_ZH, 54, BLACK, 0.055, 0.170, "tl"),
-            ("SCENT PERSONALITY · 四個時刻", FONT_EN, 20, BLACK, 0.055, 0.254, "tl"),
+            ("SCENT PERSONALITY · 四個時刻", FONT_ZH, 20, BLACK, 0.055, 0.254, "tl"),
             ("W31 · MORENE.COM.TW", FONT_EN, 18, BLACK, 0.055, 0.946, "tl"),
         ],
     )
@@ -151,7 +151,7 @@ def make_w31():
             ("MORNING", FONT_EN_BOLD, 32, BLACK, 0.055, 0.252, "tl"),
             ("擴香一兩滴", FONT_ZH, 42, BLACK, 0.055, 0.308, "tl"),
             ("替今天定一個基調", FONT_ZH, 30, BLACK, 0.055, 0.374, "tl"),
-            ("純擴香 · 情境使用", FONT_EN, 16, "#8C8079", 0.055, 0.946, "tl"),
+            ("純擴香 · 情境使用", FONT_ZH, 16, "#8C8079", 0.055, 0.946, "tl"),
         ],
     )
 
@@ -174,7 +174,7 @@ def make_w31():
             ("WORK", FONT_EN_BOLD, 32, BLACK, 0.055, 0.252, "tl"),
             ("隨身瓶在手腕", FONT_ZH, 42, BLACK, 0.055, 0.308, "tl"),
             ("把注意力帶回來", FONT_ZH, 30, BLACK, 0.055, 0.374, "tl"),
-            ("情境使用 · 手腕/衣領", FONT_EN, 16, BLACK, 0.055, 0.946, "tl"),
+            ("情境使用 · 手腕/衣領", FONT_ZH, 16, BLACK, 0.055, 0.946, "tl"),
         ],
     )
 
@@ -197,7 +197,7 @@ def make_w31():
             ("REST", FONT_EN_BOLD, 32, CREAM, 0.055, 0.252, "tl"),
             ("午後三點,窗邊一抹", FONT_ZH, 38, CREAM, 0.055, 0.308, "tl"),
             ("給自己一個喘息的標點", FONT_ZH, 28, CREAM, 0.055, 0.374, "tl"),
-            ("情境使用 · 純擴香", FONT_EN, 16, CREAM, 0.055, 0.946, "tl"),
+            ("情境使用 · 純擴香", FONT_ZH, 16, CREAM, 0.055, 0.946, "tl"),
         ],
     )
 
@@ -220,7 +220,7 @@ def make_w31():
             ("NIGHT", FONT_EN_BOLD, 32, CREAM, 0.055, 0.252, "tl"),
             ("睡前枕邊一滴", FONT_ZH, 42, CREAM, 0.055, 0.308, "tl"),
             ("替一天輕輕收尾", FONT_ZH, 30, CREAM, 0.055, 0.374, "tl"),
-            ("純擴香 · 睡前情境", FONT_EN, 16, "#8C8079", 0.055, 0.946, "tl"),
+            ("純擴香 · 睡前情境", FONT_ZH, 16, "#8C8079", 0.055, 0.946, "tl"),
         ],
     )
 
@@ -309,7 +309,7 @@ def make_w31():
             ("用精油?", FONT_ZH, 56, BLACK, 0.055, 0.210, "tl"),
             ("早晨 / 工作 / 睡前", FONT_ZH, 34, TERRA, 0.055, 0.296, "tl"),
             ("留言告訴我 👇", FONT_ZH, 28, BLACK, 0.055, 0.354, "tl"),
-            ("SCENT PERSONALITY · 命定香氣的一天", FONT_EN, 18, BLACK, 0.055, 0.944, "tl"),
+            ("SCENT PERSONALITY · 命定香氣的一天", FONT_ZH, 18, BLACK, 0.055, 0.944, "tl"),
         ],
     )
 
@@ -332,7 +332,7 @@ def make_w31():
             ("01  手腕内側", FONT_ZH, 32, BLACK, 0.055, 0.310, "tl"),
             ("02  衣領/頸部", FONT_ZH, 32, BLACK, 0.055, 0.370, "tl"),
             ("03  掌心搓熱深吸", FONT_ZH, 32, BLACK, 0.055, 0.430, "tl"),
-            ("情境使用,不宣稱功效 | 趣味體驗非診斷", FONT_EN, 15, "#8C8079", 0.055, 0.944, "tl"),
+            ("情境使用,不宣稱功效 | 趣味體驗非診斷", FONT_ZH, 15, "#8C8079", 0.055, 0.944, "tl"),
         ],
     )
 
@@ -488,7 +488,7 @@ def make_w32():
             ("06 / 07", FONT_EN, 14, "#8C8079", 0.870, 0.048, "tl"),
             ("哪一句戳到妳?", FONT_ZH, 52, BLACK, 0.055, 0.095, "tl"),
             ("標記那個「一聞就是她」的朋友", FONT_ZH, 28, BLACK, 0.055, 0.215, "tl"),
-            ("RESONANCE · 香氣人格 W32", FONT_EN, 18, BLACK, 0.055, 0.946, "tl"),
+            ("RESONANCE · 香氣人格 W32", FONT_ZH, 18, BLACK, 0.055, 0.946, "tl"),
         ],
     )
 
@@ -624,7 +624,7 @@ def make_w33():
             ("一支是妳的底色", FONT_ZH, 46, CREAM, 0.055, 0.100, "tl"),
             ("一支是妳此刻的能量", FONT_ZH, 40, MUSTARD, 0.055, 0.178, "tl"),
             ("嗅覺與情緒記憶相連 · Scent with Science", FONT_ZH, 20, "#8C8079", 0.055, 0.280, "tl"),
-            ("趣味體驗非診斷 | 科普參考,不宣稱療效", FONT_EN, 14, "#8C8079", 0.055, 0.340, "tl"),
+            ("趣味體驗非診斷 | 科普參考,不宣稱療效", FONT_ZH, 14, "#8C8079", 0.055, 0.340, "tl"),
             ("DOUBLE OIL ALCHEMY · W33", FONT_EN, 18, CREAM, 0.055, 0.944, "tl"),
         ],
     )
@@ -712,7 +712,7 @@ def make_w33():
             ("4 種能量", FONT_ZH, 72, MUSTARD, 0.055, 0.095, "tl"),
             ("沉穩 · 明亮 · 俐落 · 柔和", FONT_ZH, 28, CREAM, 0.055, 0.220, "tl"),
             ("岩蘭草 / 白葡萄柚 / 迷迭香 / 真正薰衣草", FONT_ZH, 22, "#8C8079", 0.055, 0.270, "tl"),
-            ("趣味體驗非診斷", FONT_EN, 16, "#8C8079", 0.055, 0.946, "tl"),
+            ("趣味體驗非診斷", FONT_ZH, 16, "#8C8079", 0.055, 0.946, "tl"),
         ],
     )
 
@@ -735,7 +735,7 @@ def make_w33():
             ("基調油 2–3 滴 → 攤手心", FONT_ZH, 28, CREAM, 0.055, 0.230, "tl"),
             ("+ 變調油 1–2 滴 → 搓熱", FONT_ZH, 28, CREAM, 0.055, 0.282, "tl"),
             ("→ 掌心深吸,感受今天的妳", FONT_ZH, 28, CREAM, 0.055, 0.334, "tl"),
-            ("情境使用,不宣稱療效 | 趣味體驗非診斷", FONT_EN, 15, CREAM, 0.055, 0.946, "tl"),
+            ("情境使用,不宣稱療效 | 趣味體驗非診斷", FONT_ZH, 15, CREAM, 0.055, 0.946, "tl"),
         ],
     )
 
@@ -800,7 +800,7 @@ def make_w33():
             ("兩支油", FONT_ZH, 110, CREAM, 0.055, 0.076, "tl"),
             ("調出妳的此刻", FONT_ZH, 64, MUSTARD, 0.055, 0.220, "tl"),
             ("雙油調香示範", FONT_ZH, 32, CREAM, 0.055, 0.320, "tl"),
-            ("趣味體驗非診斷 · SCENT WITH SCIENCE W33", FONT_EN, 18, CREAM, 0.055, 0.944, "tl"),
+            ("趣味體驗非診斷 · SCENT WITH SCIENCE W33", FONT_ZH, 18, CREAM, 0.055, 0.944, "tl"),
         ],
     )
 
@@ -847,7 +847,7 @@ def make_w33():
             ("嗅覺與情緒記憶相連", FONT_ZH, 40, BLACK, 0.055, 0.196, "tl"),
             ("氣味信號直通邊緣系統", FONT_ZH, 30, BLACK, 0.055, 0.278, "tl"),
             ("這是感官科普,不是療效宣稱", FONT_ZH, 24, "#8C8079", 0.055, 0.350, "tl"),
-            ("趣味體驗非診斷", FONT_EN, 18, "#8C8079", 0.055, 0.944, "tl"),
+            ("趣味體驗非診斷", FONT_ZH, 18, "#8C8079", 0.055, 0.944, "tl"),
         ],
     )
 
@@ -866,7 +866,7 @@ def make_w33():
         text_lines=[
             ("MORENE", FONT_EN_BOLD, 42, BLACK, 0.055, 0.040, "tl"),
             ("基底 + 變調", FONT_ZH, 64, BLACK, 0.055, 0.130, "tl"),
-            ("SCENT-SET 雙油組", FONT_EN_BOLD, 32, TERRA, 0.055, 0.234, "tl"),
+            ("SCENT-SET 雙油組", FONT_ZH_BOLD, 32, TERRA, 0.055, 0.234, "tl"),
             ("85 折 · morene.com.tw", FONT_ZH, 34, BLACK, 0.055, 0.296, "tl"),
             ("個人簡介連結 ↑", FONT_ZH, 28, BLACK, 0.055, 0.370, "tl"),
             ("DOUBLE OIL · W33", FONT_EN, 18, BLACK, 0.055, 0.944, "tl"),
@@ -1004,7 +1004,7 @@ def make_w34():
             ("STORIES · W34", FONT_EN, 14, "#8C8079", 0.055, 0.092, "tl"),
             ("深化檔期最後一週", FONT_ZH, 44, CREAM, 0.055, 0.130, "tl"),
             ("命定組合限時優惠", FONT_ZH, 44, MUSTARD, 0.055, 0.210, "tl"),
-            ("SCENT-TRIO 88折 / SCENT-SET 85折", FONT_EN, 22, CREAM, 0.055, 0.310, "tl"),
+            ("SCENT-TRIO 88折 / SCENT-SET 85折", FONT_ZH, 22, CREAM, 0.055, 0.310, "tl"),
             ("個人簡介連結 ↑", FONT_ZH, 32, CREAM, 0.055, 0.392, "tl"),
             ("morene.com.tw · W34", FONT_EN, 18, "#8C8079", 0.055, 0.944, "tl"),
         ],
@@ -1047,9 +1047,9 @@ def make_w34():
         text_lines=[
             ("MORENE", FONT_EN_BOLD, 42, BLACK, 0.055, 0.040, "tl"),
             ("截圖你的命定香氣型", FONT_ZH, 40, BLACK, 0.055, 0.130, "tl"),
-            ("標記 @morene_organic", FONT_EN_BOLD, 28, TERRA, 0.055, 0.228, "tl"),
+            ("標記 @morene_organic", FONT_ZH_BOLD, 28, TERRA, 0.055, 0.228, "tl"),
             ("我看到每一則 💛", FONT_ZH, 34, BLACK, 0.055, 0.296, "tl"),
-            ("#MORENE #香氣人格 #香氣儀式", FONT_EN, 22, BLACK, 0.055, 0.380, "tl"),
+            ("#MORENE #香氣人格 #香氣儀式", FONT_ZH, 22, BLACK, 0.055, 0.380, "tl"),
             ("W34 · SCENT PERSONALITY", FONT_EN, 18, "#8C8079", 0.055, 0.944, "tl"),
         ],
     )
