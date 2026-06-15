@@ -395,7 +395,7 @@ def make_all():
             ("PERSONALITY", FONT_EN_BOLD, 66, BLACK, 0.055, 0.230, "tl"),
             ("16 TYPES", FONT_EN_BOLD, 54, TERRA, 0.055, 0.316, "tl"),
             ("香氣人格", FONT_ZH, 36, BLACK, 0.055, 0.388, "tl"),
-            ("你是哪一型?", FONT_ZH, 28, BLACK, 0.055, 0.434, "tl"),
+            ("妳是哪一型?", FONT_ZH, 28, BLACK, 0.055, 0.434, "tl"),
             ("MORENE.COM.TW", FONT_EN, 19, BLACK, 0.055, 0.946, "tl"),
         ],
     )
@@ -414,7 +414,7 @@ def make_all():
         out_path=f"{OUT_BASE}/W27/FB/MORENE_W27_FB_hero.png",
         text_lines=[
             ("MORENE", FONT_EN_BOLD, 38, BLACK, 0.055, 0.048, "tl"),
-            ("你是哪一型", FONT_ZH, 70, BLACK, 0.055, 0.100, "tl"),
+            ("妳是哪一型", FONT_ZH, 70, BLACK, 0.055, 0.100, "tl"),
             ("香氣人格?", FONT_ZH, 70, BLACK, 0.055, 0.188, "tl"),
             ("「知人者智,自知者明。」", FONT_ZH, 22, BLACK, 0.055, 0.285, "tl"),
             ("— 老子《道德經》三十三章", FONT_ZH, 18, BLACK, 0.055, 0.320, "tl"),
@@ -500,9 +500,9 @@ def make_all():
         out_path=f"{OUT_BASE}/W30/IG/MORENE_W30_p1.png",
         text_lines=[
             ("MORENE", FONT_EN_BOLD, 38, BLACK, 0.055, 0.048, "tl"),
-            ("人氣 TOP", FONT_ZH, 84, BLACK, 0.055, 0.090, "tl"),
+            ("小編私心選", FONT_ZH, 76, BLACK, 0.055, 0.090, "tl"),
             ("命定組合", FONT_ZH, 62, BLACK, 0.055, 0.200, "tl"),
-            ("BEST SELLERS · SCENT PERSONALITY W30", FONT_EN, 22, BLACK, 0.055, 0.292, "tl"),
+            ("EDITOR'S PICKS · SCENT PERSONALITY W30", FONT_EN, 22, BLACK, 0.055, 0.292, "tl"),
             ("MORENE.COM.TW", FONT_EN, 19, BLACK, 0.055, 0.946, "tl"),
         ],
     )
@@ -525,7 +525,7 @@ def make_all():
             ("真正重要的東西,肉眼是看不見的。」", FONT_ZH, 26, BLACK, 0.055, 0.148, "tl"),
             ("— Antoine de Saint-Exupery, Le Petit Prince", FONT_EN, 18, BLACK, 0.055, 0.196, "tl"),
             ("謝謝一起玩香氣人格", FONT_ZH, 36, BLACK, 0.055, 0.258, "tl"),
-            ("找到你的命定香氣了嗎?", FONT_ZH, 28, BLACK, 0.055, 0.312, "tl"),
+            ("找到妳的命定香氣了嗎?", FONT_ZH, 28, BLACK, 0.055, 0.312, "tl"),
             ("MORENE.COM.TW · W30", FONT_EN, 19, BLACK, 0.055, 0.944, "tl"),
         ],
     )
