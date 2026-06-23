@@ -27,7 +27,7 @@ FOGPINK   = "#E9C5B9"
 WARMSAND  = "#CBA98A"
 CARAMEL   = "#C9853E"
 FOGBLUE   = "#82A8CC"
-NAVY      = "#1C2C4A"
+NAVY      = "#2A1A10"   # 暖可可深棕(原#1C2C4A海軍藍脫離暖色票,對齊W38乳香夜晚)
 GRASSGRN  = "#4A7C59"
 AMBER_YLW = "#E8CE8C"
 DARK_GY   = "#2A2520"
@@ -108,7 +108,7 @@ def make_stories():
         logo_line(BLACK, 0.07, 0.06),
         ("07.12", FONT_EN, 36, "#C9853E", 0.07, 0.11, "tl"),
         ("Morning Ritual", FONT_EN_BOLD, 78, BLACK, 0.07, 0.14, "tl"),
-        ("晨光裡,一滴甜橙", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.23, "tl"),
+        ("晨光裡，一滴甜橙", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.23, "tl"),
         ("讓今天從香氣開始", FONT_ZH, 40, "#8C8079", 0.07, 0.31, "tl"),
         ("swipe up →", FONT_EN, 28, "#8C8079", 0.07, 0.90, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S1.png",
@@ -119,11 +119,11 @@ def make_stories():
     card(SW, SH, NAVY, "乳香", 0.68, 0.60, 0.85, [
         logo_line(CREAM, 0.07, 0.06),
         ("07.12", FONT_EN, 36, FOGBLUE, 0.07, 0.11, "tl"),
-        ('“知人者智,', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.16, "tl"),
+        ('“知人者智，', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.16, "tl"),
         ('自知者明。”', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.24, "tl"),
         ('—— 老子《道德經》', FONT_ZH, 34, "#82A8CC", 0.07, 0.33, "tl"),
-        ('選香,也是認識自己的一刻', FONT_ZH, 38, "#CBA98A", 0.07, 0.40, "tl"),
-        ('你平時選精油看重什麼?', FONT_ZH_BOLD, 42, CREAM, 0.07, 0.88, "tl"),
+        ('選香，也是認識自己的一刻', FONT_ZH, 38, "#CBA98A", 0.07, 0.40, "tl"),
+        ('你平時選精油看重什麼？', FONT_ZH_BOLD, 42, CREAM, 0.07, 0.88, "tl"),
         ('留言告訴我們 ↓', FONT_ZH, 32, FOGBLUE, 0.07, 0.93, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S2.png",
     shadow_offset_x=35, shadow_opacity=0.18)
@@ -134,7 +134,7 @@ def make_stories():
         logo_line(BLACK, 0.07, 0.06),
         ("07.13", FONT_EN, 36, TERRA, 0.07, 0.11, "tl"),
         ("Where to apply?", FONT_EN_BOLD, 72, BLACK, 0.07, 0.15, "tl"),
-        ("精油要塗哪裡?", FONT_ZH_BOLD, 58, BLACK, 0.07, 0.24, "tl"),
+        ("精油要塗哪裡？", FONT_ZH_BOLD, 58, BLACK, 0.07, 0.24, "tl"),
         ("手腕・頸側・腳底・胸口", FONT_ZH, 38, TERRA, 0.07, 0.33, "tl"),
         ("各有不同吸收速度和效果", FONT_ZH, 34, "#8C8079", 0.07, 0.40, "tl"),
         ("明天帶你完整看一遍 →", FONT_ZH_BOLD, 38, TERRA, 0.07, 0.88, "tl"),
@@ -147,9 +147,9 @@ def make_stories():
         ("07.13", FONT_EN, 36, AMBER_YLW, 0.07, 0.11, "tl"),
         ("Dilute or not?", FONT_EN_BOLD, 68, CREAM, 0.07, 0.15, "tl"),
         ("你平時塗精油前", FONT_ZH_BOLD, 52, CREAM, 0.07, 0.24, "tl"),
-        ("有先稀釋嗎?", FONT_ZH_BOLD, 52, AMBER_YLW, 0.07, 0.31, "tl"),
-        ("A  有,用基底油調和", FONT_ZH, 40, CREAM, 0.07, 0.55, "tl"),
-        ("B  沒有,直接塗", FONT_ZH, 40, CREAM, 0.07, 0.63, "tl"),
+        ("有先稀釋嗎？", FONT_ZH_BOLD, 52, AMBER_YLW, 0.07, 0.31, "tl"),
+        ("A  有，用基底油調和", FONT_ZH, 40, CREAM, 0.07, 0.55, "tl"),
+        ("B  沒有，直接塗", FONT_ZH, 40, CREAM, 0.07, 0.63, "tl"),
         ("C  看心情", FONT_ZH, 40, CREAM, 0.07, 0.71, "tl"),
         ("留言選你的答案 ↓", FONT_ZH, 34, AMBER_YLW, 0.07, 0.90, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S4.png",
@@ -162,8 +162,8 @@ def make_stories():
         ("07.14", FONT_EN, 36, CREAM, 0.07, 0.11, "tl"),
         ("Dawn", FONT_EN_BOLD, 120, CREAM, 0.07, 0.14, "tl"),
         ("清晨的香氣儀式", FONT_ZH_BOLD, 54, CREAM, 0.07, 0.30, "tl"),
-        ("在一天的起點,為自己留一分鐘", FONT_ZH, 36, "#EDE7DC", 0.07, 0.38, "tl"),
-        ("你的早晨從哪個香調開始?", FONT_ZH_BOLD, 38, AMBER_YLW, 0.07, 0.87, "tl"),
+        ("在一天的起點，為自己留一分鐘", FONT_ZH, 36, "#EDE7DC", 0.07, 0.38, "tl"),
+        ("你的早晨從哪個香調開始？", FONT_ZH_BOLD, 38, AMBER_YLW, 0.07, 0.87, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S5.png",
     shadow_offset_x=50, shadow_opacity=0.25)
     print("S5 done")
@@ -173,10 +173,10 @@ def make_stories():
         logo_line(BLACK, 0.07, 0.06),
         ("07.14", FONT_EN, 36, TERRA, 0.07, 0.11, "tl"),
         ("Morning Mood Poll", FONT_EN_BOLD, 60, BLACK, 0.07, 0.15, "tl"),
-        ("你的早晨是哪種狀態?", FONT_ZH_BOLD, 50, BLACK, 0.07, 0.23, "tl"),
-        ("A  活力滿滿,出發!", FONT_ZH, 40, TERRA, 0.07, 0.52, "tl"),
-        ("B  慢慢醒,需要儀式感", FONT_ZH, 40, "#8C8079", 0.07, 0.60, "tl"),
-        ("C  半夢半醒,靠咖啡撐", FONT_ZH, 40, "#8C8079", 0.07, 0.68, "tl"),
+        ("你的早晨是哪種狀態？", FONT_ZH_BOLD, 50, BLACK, 0.07, 0.23, "tl"),
+        ("A  活力滿滿，出發！", FONT_ZH, 40, TERRA, 0.07, 0.52, "tl"),
+        ("B  慢慢醒，需要儀式感", FONT_ZH, 40, "#8C8079", 0.07, 0.60, "tl"),
+        ("C  半夢半醒，靠咖啡撐", FONT_ZH, 40, "#8C8079", 0.07, 0.68, "tl"),
         ("留言選你的 →", FONT_ZH, 34, TERRA, 0.07, 0.90, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S6.png")
     print("S6 done")
@@ -197,8 +197,8 @@ def make_stories():
     card(SW, SH, AMBER_YLW, "佛手柑", 0.66, 0.55, 0.82, [
         logo_line(BLACK, 0.07, 0.06),
         ("07.15", FONT_EN, 36, TERRA, 0.07, 0.11, "tl"),
-        ("你對佛手柑的印象?", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.16, "tl"),
-        ("A  陽光柑橘,清新", FONT_ZH, 44, BLACK, 0.07, 0.50, "tl"),
+        ("你對佛手柑的印象？", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.16, "tl"),
+        ("A  陽光柑橘，清新", FONT_ZH, 44, BLACK, 0.07, 0.50, "tl"),
         ("B  伯爵茶的那個香", FONT_ZH, 44, BLACK, 0.07, 0.59, "tl"),
         ("C  沒特別印象", FONT_ZH, 44, BLACK, 0.07, 0.68, "tl"),
         ("D  沒聞過", FONT_ZH, 44, BLACK, 0.07, 0.77, "tl"),
@@ -212,7 +212,7 @@ def make_stories():
         logo_line(CREAM, 0.07, 0.06),
         ("07.16", FONT_EN, 36, CREAM, 0.07, 0.11, "tl"),
         ("甜橙 vs 乳香", FONT_ZH_BOLD, 62, CREAM, 0.07, 0.16, "tl"),
-        ("你更常用哪支?", FONT_ZH, 42, CREAM, 0.07, 0.25, "tl"),
+        ("你更常用哪支？", FONT_ZH, 42, CREAM, 0.07, 0.25, "tl"),
         ("甜橙", FONT_ZH_BOLD, 56, AMBER_YLW, 0.07, 0.55, "tl"),
         ("活力・柑橘・早晨", FONT_ZH, 34, CREAM, 0.07, 0.63, "tl"),
         ("乳香", FONT_ZH_BOLD, 56, WARMSAND, 0.55, 0.55, "tl"),
@@ -227,11 +227,11 @@ def make_stories():
         logo_line(CREAM, 0.07, 0.06),
         ("07.16", FONT_EN, 36, FOGBLUE, 0.07, 0.11, "tl"),
         ("Inward or Outward?", FONT_EN_BOLD, 60, CREAM, 0.07, 0.15, "tl"),
-        ("你是向內型,還是向外型?", FONT_ZH_BOLD, 50, CREAM, 0.07, 0.24, "tl"),
+        ("你是向內型，還是向外型？", FONT_ZH_BOLD, 50, CREAM, 0.07, 0.24, "tl"),
         ("精油香氣往往最誠實", FONT_ZH, 38, FOGBLUE, 0.07, 0.33, "tl"),
         ("向內型 — 木質・樹脂・大地", FONT_ZH, 36, WARMSAND, 0.07, 0.55, "tl"),
         ("向外型 — 柑橘・青草・花香", FONT_ZH, 36, AMBER_YLW, 0.07, 0.63, "tl"),
-        ("你呢?留言告訴我們 ↓", FONT_ZH_BOLD, 40, CREAM, 0.07, 0.88, "tl"),
+        ("你呢？留言告訴我們 ↓", FONT_ZH_BOLD, 40, CREAM, 0.07, 0.88, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S10.png",
     shadow_opacity=0.18)
     print("S10 done")
@@ -242,7 +242,7 @@ def make_stories():
         ("07.17", FONT_EN, 36, SAGE, 0.07, 0.11, "tl"),
         ("Post-Workout", FONT_EN_BOLD, 80, CREAM, 0.07, 0.15, "tl"),
         ("運動後的香氣切換", FONT_ZH_BOLD, 54, CREAM, 0.07, 0.27, "tl"),
-        ("流汗之後,一支精油", FONT_ZH, 38, "#8C8079", 0.07, 0.36, "tl"),
+        ("流汗之後，一支精油", FONT_ZH, 38, "#8C8079", 0.07, 0.36, "tl"),
         ("幫你從運動模式切換回來", FONT_ZH, 38, "#8C8079", 0.07, 0.43, "tl"),
         ("明天完整分享 →", FONT_ZH_BOLD, 38, SAGE, 0.07, 0.87, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_S11.png",
@@ -253,7 +253,7 @@ def make_stories():
     card(SW, SH, DARK_GY, "大西洋雪松", 0.62, 0.60, 0.80, [
         logo_line(CREAM, 0.07, 0.06),
         ("07.17", FONT_EN, 36, SAGE, 0.07, 0.11, "tl"),
-        ("你運動後都怎麼放鬆?", FONT_ZH_BOLD, 52, CREAM, 0.07, 0.16, "tl"),
+        ("你運動後都怎麼放鬆？", FONT_ZH_BOLD, 52, CREAM, 0.07, 0.16, "tl"),
         ("A  洗澡/泡澡", FONT_ZH, 42, CREAM, 0.07, 0.50, "tl"),
         ("B  靜坐/冥想", FONT_ZH, 42, CREAM, 0.07, 0.59, "tl"),
         ("C  攤著滑手機", FONT_ZH, 42, CREAM, 0.07, 0.68, "tl"),
@@ -280,7 +280,7 @@ def make_stories():
     card(SW, SH, CREAM, "真正薰衣草", 0.60, 0.55, 0.80, [
         logo_line(BLACK, 0.07, 0.06),
         ("07.18", FONT_EN, 36, TERRA, 0.07, 0.11, "tl"),
-        ("你買精油最在意什麼?", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.16, "tl"),
+        ("你買精油最在意什麼？", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.16, "tl"),
         ("A  學名產地透明", FONT_ZH, 44, TERRA, 0.07, 0.48, "tl"),
         ("B  香氣本身合不合", FONT_ZH, 44, BLACK, 0.07, 0.57, "tl"),
         ("C  價格", FONT_ZH, 44, BLACK, 0.07, 0.66, "tl"),
@@ -301,10 +301,10 @@ def make_ig():
     card(IW, IH, TERRA, "乳香", 0.70, 0.60, 0.84, [
         logo_line(CREAM, 0.07, 0.055),
         ("07.12", FONT_EN, 32, FOGPINK, 0.07, 0.10, "tl"),
-        ('"知人者智,', FONT_ZH_BOLD, 72, CREAM, 0.07, 0.15, "tl"),
-        ('自知者明。"', FONT_ZH_BOLD, 72, CREAM, 0.07, 0.24, "tl"),
+        ('“知人者智，', FONT_ZH_BOLD, 72, CREAM, 0.07, 0.15, "tl"),
+        ('自知者明。”', FONT_ZH_BOLD, 72, CREAM, 0.07, 0.24, "tl"),
         ('—— 老子《道德經》', FONT_ZH, 34, FOGPINK, 0.07, 0.34, "tl"),
-        ("選一支香氣,是認識自己的起點", FONT_ZH, 38, CREAM, 0.07, 0.42, "tl"),
+        ("選一支香氣，是認識自己的起點", FONT_ZH, 38, CREAM, 0.07, 0.42, "tl"),
         ("MORENE 每支精油 · 學名產地透明", FONT_ZH, 28, FOGPINK, 0.07, 0.90, "tl"),
     ], f"{OUT_W3}/IG/MORENE_W3inc_IG1.png",
     shadow_opacity=0.22)
@@ -315,10 +315,10 @@ def make_ig():
         logo_line(BLACK, 0.07, 0.055),
         ("07.13", FONT_EN, 32, TERRA, 0.07, 0.10, "tl"),
         ("Where to Apply", FONT_EN_BOLD, 70, BLACK, 0.07, 0.14, "tl"),
-        ("精油塗哪裡效果最好?", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.24, "tl"),
+        ("精油塗哪裡效果最好？", FONT_ZH_BOLD, 52, BLACK, 0.07, 0.24, "tl"),
         ("手腕內側  ·  脈搏溫度幫助揮發", FONT_ZH, 34, "#8C8079", 0.07, 0.33, "tl"),
-        ("頸側後方  ·  靠近神經叢,反應快", FONT_ZH, 34, "#8C8079", 0.07, 0.40, "tl"),
-        ("腳底湧泉  ·  角質厚,刺激小", FONT_ZH, 34, "#8C8079", 0.07, 0.47, "tl"),
+        ("頸側後方  ·  靠近神經叢，反應快", FONT_ZH, 34, "#8C8079", 0.07, 0.40, "tl"),
+        ("腳底湧泉  ·  角質厚，刺激小", FONT_ZH, 34, "#8C8079", 0.07, 0.47, "tl"),
         ("塗前  ·  建議以 2-3% 基底油稀釋", FONT_ZH_BOLD, 34, TERRA, 0.07, 0.57, "tl"),
         ("IFA 國際芳療師監製 · 完整 INCI 公開", FONT_ZH, 26, "#8C8079", 0.07, 0.90, "tl"),
     ], f"{OUT_W3}/IG/MORENE_W3inc_IG2.png")
@@ -333,7 +333,7 @@ def make_ig():
         ("晨間香氣儀式", FONT_ZH_BOLD, 56, AMBER_YLW, 0.07, 0.33, "tl"),
         ("佛手柑 · 清新啟動", FONT_ZH, 36, CREAM, 0.07, 0.44, "tl"),
         ("甜橙 · 溫暖陽光感", FONT_ZH, 36, CREAM, 0.07, 0.51, "tl"),
-        ("你的早晨從哪支香氣開始?", FONT_ZH_BOLD, 36, AMBER_YLW, 0.07, 0.88, "tl"),
+        ("你的早晨從哪支香氣開始？", FONT_ZH_BOLD, 36, AMBER_YLW, 0.07, 0.88, "tl"),
     ], f"{OUT_W3}/IG/MORENE_W3inc_IG3.png",
     shadow_offset_x=50, shadow_opacity=0.24)
     print("IG3 done")
@@ -358,7 +358,7 @@ def make_ig():
         ("07.16", FONT_EN, 32, FOGBLUE, 0.07, 0.10, "tl"),
         ("Travel With Me", FONT_EN_BOLD, 72, BLACK, 0.07, 0.14, "tl"),
         ("帶一支精油出發", FONT_ZH_BOLD, 56, BLACK, 0.07, 0.24, "tl"),
-        ("旅行包裡,你會帶哪支?", FONT_ZH, 38, "#8C8079", 0.07, 0.33, "tl"),
+        ("旅行包裡，你會帶哪支？", FONT_ZH, 38, "#8C8079", 0.07, 0.33, "tl"),
         ("佛手柑  —  陌生城市的陽光感", FONT_ZH, 34, FOGBLUE, 0.07, 0.43, "tl"),
         ("大西洋雪松  —  旅館夜晚的穩定感", FONT_ZH, 34, FOGBLUE, 0.07, 0.50, "tl"),
         ("留言分享你的旅行精油 →", FONT_ZH_BOLD, 36, BLACK, 0.07, 0.88, "tl"),
@@ -385,7 +385,7 @@ def make_ig():
         logo_line(BLACK, 0.07, 0.055),
         ("07.18", FONT_EN, 32, FOGBLUE, 0.07, 0.10, "tl"),
         ("Transparency", FONT_EN_BOLD, 80, BLACK, 0.07, 0.14, "tl"),
-        ("產地透明,是誠信的起點", FONT_ZH_BOLD, 50, BLACK, 0.07, 0.25, "tl"),
+        ("產地透明，是誠信的起點", FONT_ZH_BOLD, 50, BLACK, 0.07, 0.25, "tl"),
         ("真正薰衣草", FONT_ZH_BOLD, 56, FOGBLUE, 0.07, 0.34, "tl"),
         ("Lavandula angustifolia", FONT_EN, 30, "#8C8079", 0.07, 0.43, "tl"),
         ("普羅旺斯 · 蒸氣蒸餾 · IFA 監製", FONT_ZH, 32, "#8C8079", 0.07, 0.50, "tl"),
@@ -409,15 +409,15 @@ def make_fb():
         ("乳香", 0.65, 0.60, 0.82, TERRA, [
             logo_line(CREAM, 0.07, 0.07),
             ("07.12", FONT_EN, 30, FOGPINK, 0.07, 0.13, "tl"),
-            ('"知人者智,自知者明。"', FONT_ZH_BOLD, 58, CREAM, 0.07, 0.18, "tl"),
+            ('“知人者智，自知者明。”', FONT_ZH_BOLD, 58, CREAM, 0.07, 0.18, "tl"),
             ('—— 老子《道德經》', FONT_ZH, 30, FOGPINK, 0.07, 0.28, "tl"),
-            ("選香,是認識自己的一刻", FONT_ZH, 34, CREAM, 0.07, 0.35, "tl"),
+            ("選香，是認識自己的一刻", FONT_ZH, 34, CREAM, 0.07, 0.35, "tl"),
             ("MORENE · 學名產地透明", FONT_ZH, 24, FOGPINK, 0.07, 0.88, "tl"),
         ], "FB1"),
         ("甜橙", 0.60, 0.58, 0.80, CREAM, [
             logo_line(BLACK, 0.07, 0.07),
             ("07.13", FONT_EN, 30, TERRA, 0.07, 0.13, "tl"),
-            ("精油塗哪裡最有效?", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.18, "tl"),
+            ("精油塗哪裡最有效？", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.18, "tl"),
             ("手腕・頸側・腳底・胸口", FONT_ZH, 36, TERRA, 0.07, 0.28, "tl"),
             ("塗前建議稀釋 2-3%", FONT_ZH, 32, "#8C8079", 0.07, 0.36, "tl"),
             ("IFA 監製 · INCI 公開", FONT_ZH, 24, "#8C8079", 0.07, 0.87, "tl"),
@@ -427,7 +427,7 @@ def make_fb():
             ("07.14", FONT_EN, 30, CREAM, 0.07, 0.13, "tl"),
             ("晨間香氣儀式", FONT_ZH_BOLD, 60, CREAM, 0.07, 0.18, "tl"),
             ("佛手柑 · 清新 / 甜橙 · 溫暖", FONT_ZH, 36, AMBER_YLW, 0.07, 0.29, "tl"),
-            ("一分鐘,為自己留下儀式感", FONT_ZH, 32, CREAM, 0.07, 0.37, "tl"),
+            ("一分鐘，為自己留下儀式感", FONT_ZH, 32, CREAM, 0.07, 0.37, "tl"),
             ("morene.com.tw", FONT_EN, 26, CREAM, 0.07, 0.87, "tl"),
         ], "FB3"),
         ("佛手柑", 0.66, 0.56, 0.82, AMBER_YLW, [
@@ -442,7 +442,7 @@ def make_fb():
             logo_line(BLACK, 0.07, 0.07),
             ("07.16", FONT_EN, 30, FOGBLUE, 0.07, 0.13, "tl"),
             ("帶一支精油出發", FONT_ZH_BOLD, 58, BLACK, 0.07, 0.18, "tl"),
-            ("旅行包裡你會帶哪支?", FONT_ZH, 36, "#8C8079", 0.07, 0.28, "tl"),
+            ("旅行包裡你會帶哪支？", FONT_ZH, 36, "#8C8079", 0.07, 0.28, "tl"),
             ("留言分享你的旅行精油 →", FONT_ZH_BOLD, 32, FOGBLUE, 0.07, 0.36, "tl"),
             ("morene.com.tw", FONT_EN, 26, "#8C8079", 0.07, 0.87, "tl"),
         ], "FB5"),
@@ -457,7 +457,7 @@ def make_fb():
         ("真正薰衣草", 0.64, 0.54, 0.82, CREAM, [
             logo_line(BLACK, 0.07, 0.07),
             ("07.18", FONT_EN, 30, FOGBLUE, 0.07, 0.13, "tl"),
-            ("產地透明,是誠信的起點", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.18, "tl"),
+            ("產地透明，是誠信的起點", FONT_ZH_BOLD, 54, BLACK, 0.07, 0.18, "tl"),
             ("真正薰衣草 · 普羅旺斯", FONT_ZH_BOLD, 42, FOGBLUE, 0.07, 0.29, "tl"),
             ("學名·產地·INCI 全公開", FONT_ZH, 34, "#8C8079", 0.07, 0.37, "tl"),
             ("morene.com.tw", FONT_EN, 26, FOGBLUE, 0.07, 0.87, "tl"),
@@ -481,7 +481,7 @@ def make_reels():
         # f1 封面
         (TERRA, "乳香", 0.70, 0.58, 0.84, [
             logo_line(CREAM, 0.07, 0.06),
-            ('"知人者智,自知者明。"', FONT_ZH_BOLD, 58, CREAM, 0.07, 0.14, "tl"),
+            ('“知人者智，自知者明。”', FONT_ZH_BOLD, 58, CREAM, 0.07, 0.14, "tl"),
             ('—— 老子《道德經》', FONT_ZH, 32, FOGPINK, 0.07, 0.24, "tl"),
             ('選一支懂你的香氣', FONT_ZH_BOLD, 50, CREAM, 0.07, 0.31, "tl"),
         ]),
@@ -489,7 +489,7 @@ def make_reels():
         (CREAM, "甜橙", 0.62, 0.52, 0.80, [
             logo_line(BLACK, 0.07, 0.06),
             ("選香的那一刻", FONT_ZH_BOLD, 58, BLACK, 0.07, 0.14, "tl"),
-            ("你是用眼睛選,還是用鼻子選?", FONT_ZH, 40, "#8C8079", 0.07, 0.23, "tl"),
+            ("你是用眼睛選，還是用鼻子選？", FONT_ZH, 40, "#8C8079", 0.07, 0.23, "tl"),
         ]),
         # f3 拿瓶聞
         (AMBER_YLW, "佛手柑", 0.68, 0.55, 0.83, [
@@ -508,7 +508,7 @@ def make_reels():
         # f5 香氣人格提示
         (CREAM, "甜橙", 0.58, 0.54, 0.78, [
             logo_line(BLACK, 0.07, 0.06),
-            ("你是哪種香氣人格?", FONT_ZH_BOLD, 56, BLACK, 0.07, 0.14, "tl"),
+            ("你是哪種香氣人格？", FONT_ZH_BOLD, 56, BLACK, 0.07, 0.14, "tl"),
             ("柑橘型 · 木質型 · 花香型 · 大地型", FONT_ZH, 34, "#8C8079", 0.07, 0.24, "tl"),
         ]),
         # f6 CTA
@@ -547,9 +547,9 @@ def make_reels():
         (CARAMEL, "佛手柑", 0.70, 0.54, 0.83, [
             logo_line(CREAM, 0.07, 0.06),
             ("Open & Inhale", FONT_EN_BOLD, 72, CREAM, 0.07, 0.14, "tl"),
-            ("前調:柑橘清新", FONT_ZH_BOLD, 50, CREAM, 0.07, 0.25, "tl"),
-            ("中調:花香微甜", FONT_ZH, 40, AMBER_YLW, 0.07, 0.33, "tl"),
-            ("後調:淡淡木質", FONT_ZH, 40, CREAM, 0.07, 0.41, "tl"),
+            ("前調：柑橘清新", FONT_ZH_BOLD, 50, CREAM, 0.07, 0.25, "tl"),
+            ("中調：花香微甜", FONT_ZH, 40, AMBER_YLW, 0.07, 0.33, "tl"),
+            ("後調：淡淡木質", FONT_ZH, 40, CREAM, 0.07, 0.41, "tl"),
         ]),
         # f4 光敏提醒字卡
         (NAVY, "佛手柑", 0.58, 0.58, 0.78, [
@@ -604,7 +604,7 @@ def make_reels():
             logo_line(CREAM, 0.07, 0.06),
             ("Diffuse Signal", FONT_EN_BOLD, 72, CREAM, 0.07, 0.14, "tl"),
             ("大西洋雪松", FONT_ZH_BOLD, 58, SAGE, 0.07, 0.25, "tl"),
-            ("木質大地,告訴身體:可以放鬆了", FONT_ZH, 36, CREAM, 0.07, 0.34, "tl"),
+            ("木質大地，告訴身體：可以放鬆了", FONT_ZH, 36, CREAM, 0.07, 0.34, "tl"),
         ]),
         # f4 木質柑橘對比
         (CREAM, "岩蘭草", 0.60, 0.58, 0.78, [
@@ -647,10 +647,10 @@ def make_canary():
     card(SW, SH, NAVY, "乳香", 0.68, 0.60, 0.85, [
         logo_line(CREAM, 0.07, 0.06),
         ("07.12 CANARY", FONT_EN, 36, FOGBLUE, 0.07, 0.11, "tl"),
-        ('"知人者智,', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.16, "tl"),
-        ('自知者明。"', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.24, "tl"),
+        ('“知人者智，', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.16, "tl"),
+        ('自知者明。”', FONT_ZH_BOLD, 64, CREAM, 0.07, 0.24, "tl"),
         ('—— 老子《道德經》', FONT_ZH, 34, "#82A8CC", 0.07, 0.33, "tl"),
-        ('選香,也是認識自己的一刻', FONT_ZH, 38, "#CBA98A", 0.07, 0.40, "tl"),
+        ('選香，也是認識自己的一刻', FONT_ZH, 38, "#CBA98A", 0.07, 0.40, "tl"),
     ], f"{OUT_W3}/Stories/MORENE_W3inc_CANARY_S2.png",
     shadow_opacity=0.18)
     print("Canary S2 saved.")

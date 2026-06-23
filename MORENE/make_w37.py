@@ -307,7 +307,7 @@ def make_stories():
             ("處暑 · 8/23", FONT_ZH, 32, TERRA, 0.055, 0.092, "tl"),
             ("乳香圖文看主頁 →", FONT_ZH, 48, BLACK, 0.055, 0.152, "tl"),
             ("Boswellia carterii", FONT_EN, 22, GREYBROWN, 0.055, 0.248, "tl"),
-            ("索馬利亞 · 樹脂 · 木質溫暖", FONT_ZH, 28, BLACK, 0.055, 0.302, "tl"),
+            ("印度 · 樹脂 · 木質溫暖", FONT_ZH, 28, BLACK, 0.055, 0.302, "tl"),
             ("情境使用 · 非療效宣稱 · MORENE.COM.TW", FONT_ZH, 16, GREYBROWN, 0.055, 0.944, "tl"),
         ],
     )
@@ -624,7 +624,7 @@ def make_ig_fb():
             ("8月23日 · 二十四節氣", FONT_ZH, 26, DARKBROWN, 0.055, 0.286, "tl"),
             ("暑氣漸退 · 秋意初現", FONT_ZH, 36, BLACK, 0.055, 0.342, "tl"),
             ("乳香 · Boswellia carterii", FONT_ZH, 26, DARKBROWN, 0.055, 0.416, "tl"),
-            ("索馬利亞 · 樹脂 · 溫暖木質", FONT_ZH, 22, DARKBROWN, 0.055, 0.462, "tl"),
+            ("印度 · 樹脂 · 溫暖木質", FONT_ZH, 22, DARKBROWN, 0.055, 0.462, "tl"),
             ("情境使用 · 非療效宣稱 · MORENE.COM.TW", FONT_ZH, 15, DARKBROWN, 0.055, 0.946, "tl"),
         ],
     )
@@ -972,7 +972,7 @@ def make_reels():
             ("REELS · R2", FONT_EN, 14, DARKBROWN, 0.055, 0.092, "tl"),
             ("乳香", FONT_ZH, 90, BLACK, 0.055, 0.130, "tl"),
             ("Boswellia carterii", FONT_EN, 28, DARKBROWN, 0.055, 0.258, "tl"),
-            ("索馬利亞 · 樹脂 · 溫暖木質", FONT_ZH, 28, BLACK, 0.055, 0.322, "tl"),
+            ("印度 · 樹脂 · 溫暖木質", FONT_ZH, 28, BLACK, 0.055, 0.322, "tl"),
         ],
     )
 
